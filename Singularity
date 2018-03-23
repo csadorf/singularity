@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: glotzerlab/software
+From: glotzerlab/software:cuda8-openmpi3.0
 
 %labels
 	MAINTAINER csadorf
