@@ -6,8 +6,12 @@ From: glotzerlab/software
 
 %post
 	ln -s /usr/bin/python3 /usr/bin/python
+	apt-get update
+	apt-get install python3-mpi4py
+	apt-get install python3-scipy
+	apt-get install python3-matplotlib
+	ln -s /usr/bin/python3 /usr/bin/python
 	export LC_ALL=C
-	pip3 install scipy
 	pip3 install scikit-learn
 	pip3 install tensorflow
 	pip3 install keras

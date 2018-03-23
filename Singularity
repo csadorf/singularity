@@ -6,5 +6,7 @@ From: glotzerlab/software
 
 %post
 	ln -s /usr/bin/python3 /usr/bin/python
-	export LC_ALL=C
-	pip3 install scipy
+	apt-get update
+	apt-get install python3-mpi4py
+	apt-get install python3-scipy
+	apt-get install python3-matplotlib
