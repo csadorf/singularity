@@ -9,6 +9,6 @@ From: glotzerlab/software
 	apt-get update && apt-get install -y \
 		python3-mpi4py \
 		python3-scipy \
-		python3-matplotlib \
+		python3-matplotlib
 	export LC_ALL=C
 	pip3 install scikit-learn tensorflow keras
