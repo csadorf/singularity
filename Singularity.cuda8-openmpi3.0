@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: glotzerlab/software:latest
+From: glotzerlab/software:cuda8-openmpi3.0
 
 %labels
 	MAINTAINER csadorf
@@ -7,5 +7,6 @@ From: glotzerlab/software:latest
 %post
 	ln -s /usr/bin/python3 /usr/bin/python
 	apt-get update && apt-get install -y \
+		python3-mpi4py \
 		python3-scipy \
 		python3-matplotlib

@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: glotzerlab/software:latest
+From: glotzerlab/software:cuda8
 
 %labels
 	MAINTAINER csadorf
