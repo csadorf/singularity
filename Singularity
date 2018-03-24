@@ -9,3 +9,6 @@ From: glotzerlab/software:latest
 	apt-get update && apt-get install -y \
 		python3-scipy \
 		python3-matplotlib
+
+%environment
+	export LC_ALL=C

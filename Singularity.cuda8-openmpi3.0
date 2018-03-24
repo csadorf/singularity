@@ -10,3 +10,6 @@ From: glotzerlab/software:cuda8-openmpi3.0
 		python3-mpi4py \
 		python3-scipy \
 		python3-matplotlib
+
+%environment
+	export LC_ALL=C
