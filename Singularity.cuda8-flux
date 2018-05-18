@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: glotzerlab/software:bridges
+From: glotzerlab/software:cuda8-flux
 
 %labels
 	MAINTAINER csadorf
